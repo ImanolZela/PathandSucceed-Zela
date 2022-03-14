@@ -35,6 +35,7 @@ a{
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 @media (min-width: 950px) {
     .padding-horizontal{
         padding-left: 70px;
@@ -58,7 +59,8 @@ a{
     padding: 0;
 }
 .menu li{
-    padding: 0 15px;
+    padding: 0 10px;
+    transition: all 0.5s;
 }
 .top-nav .menu li{
     display: inline-block;
@@ -81,6 +83,9 @@ a{
 
 .abrir-menu, .cerrar-menu{
     display: none;
+}
+.menu li:hover{
+    transform: scale(1.2);
 }
 
 @media (max-width: 950px){
@@ -224,6 +229,10 @@ a{
     font-weight: bold;
     color: #a3b9ae;
     margin-bottom: 15px;
+    transition: all 2s;
+}
+.valores-all:hover{
+    transform: scale(1.16);
 }
 .valores-desripcion{
     font-weight: 400;
@@ -346,6 +355,10 @@ a{
     padding: 10px 0;
     text-decoration: none;
     box-shadow: 0 4px 5px rgb(99, 96, 96);
+    transition: all 1.3s;
+}
+.cta:hover{
+    transform: scale(1.12);
 }
 
 .servicios{
@@ -374,6 +387,7 @@ a{
     height: 210px;
     padding: 20px 10px;
     text-align: center;
+    transition: all 2s;
 }
 .servicios-icono1{
     width: 28%;
@@ -382,6 +396,10 @@ a{
     overflow: hidden;
     height: 210px;
     padding: 20px 10px;
+    transition: all 2s;
+}
+.servicios-icono:hover,.servicios-icono1:hover{
+    transform: scale(1.15);
 }
 .servicios-titulo1{
     margin: 20px;
@@ -730,9 +748,11 @@ a{
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;
+    transition: all 0.5s;
 }
 .footer-box a:hover{
     opacity: 0.8;
+    transform: scale(1.15);
 }
 .footer-box a .fab{
     font-size: 20px;
@@ -752,4 +772,5 @@ a{
     height: 1px;
     background-color: #7a7a7a;
 }
+
 /* fin footer */
