@@ -419,6 +419,48 @@ a{
     text-align: center;
 }
 
+.servicios-icono1:hover , .servicios-icono:hover{
+    animation: cambioColor 5s;
+}
+
+@keyframes cambioColor{
+    0%{
+        background-color: #bbb0b0;
+    }
+    15%{
+        background-color: #7a7a7a;
+        border-radius: 25%;
+    }
+
+    25%{
+        background-color: #4a4a4a;
+        color: #bbb0b0;
+    }
+    50%{
+        background-color: #343434;
+        color: #fff;
+        border-radius: 50%;
+        width: 300px;
+    }
+    65%{
+        background-color: #000000;
+        color: antiquewhite;
+        border-radius: 25%;
+    }
+    85%{
+        background-color: #4a4a4a;
+        color: #bbb0b0;
+    }
+    95%{
+        background-color: #7a7a7a;
+        color: #434343;
+        border-radius: 0;   
+    }
+    100%{
+        background-color: #fff;
+        color: #4a4a4a;
+    }
+}
 @media (max-width: 950px){
    .servicios-main{
        height: auto;
