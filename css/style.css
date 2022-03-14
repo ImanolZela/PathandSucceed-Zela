@@ -460,78 +460,57 @@ a{
 }
 /* FIN SERVICIOS */
 /* INICIO STAFF */
-.staff-conteiner{
+.staff-contenedor{
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
     overflow: hidden;
 }
+
 .staff-titulo{
-    color: #241d1d;
+    color: #4a4a4a;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
+}
 
-}
-.img-principal-trabajos{
-    width: 95%;
-    max-width: 400px;
-}
-.staff-contenedor-nosotros{
+.staff-cards{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 60px;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
-}
-.staff-img, .staff-img2{
-    width: 48%;
-}
-.staff-contenedor-nosotros .staff-textos-contenido{
-    width: 48%;
-}
-.staff-textos-contenido{
-    margin-top: 60px;
-}
-.staff-textos-contenido h3{
-    margin-bottom:  15px;
 }
 
-.staff-textos-contenido h3 span{
-    background-color: #4a4a4a;
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
+.staff-cards .card{
+    background: #4a4a4a;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
-    margin-right: 15px;
 }
-
-.staff-textos-contenido h4{
-    padding: 0 0 10px 50px;
+.staff-cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+.staff-cards .card > .staff-contenido-texto{
+    width: 60%;
+    color: #fff;
+}
+.staff-cards .card > .staff-contenido-texto .staff-contenido-detalles{
     font-weight: 300;
-    text-align: justify;
+    padding-top: 5px;
+
 }
 
-@media (max-width: 950px){
-        .staff-contenedor-nosotros{
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Noto Sans', sans-serif;
-            font-size: 20px;
-            margin-top:-60px;
-            margin-bottom: 0px;
-        }
 
-        .staff-img2{
-            display: none;
-        }
-}
+
+
 
 /* FIN STAFF */
 
