@@ -497,6 +497,7 @@ a{
     border: 3px solid #fff;
     border-radius: 50%;
     display: block;
+    margin-left: 35px;
 }
 .staff-cards .card > .staff-contenido-texto{
     width: 60%;
@@ -505,10 +506,26 @@ a{
 .staff-cards .card > .staff-contenido-texto .staff-contenido-detalles{
     font-weight: 300;
     padding-top: 5px;
-
 }
-
-
+.staff-contenido-texto{
+    text-align: center;
+}
+@media screen and (max-width:950px){
+    .staff-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .staff-cards .card{
+        width: 90%;
+    }
+    .staff-cards .card:first-child{
+        margin-bottom: 30px;
+    }
+    .staff-contenedor{
+        padding: 15px 0;
+    }
+}
 
 
 
