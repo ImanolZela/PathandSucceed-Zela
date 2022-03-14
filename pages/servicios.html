@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../css/style.css">
         <script defer src="../js/scripts.js"></script>
         <script src="https://kit.fontawesome.com/382f57ddc0.js" crossorigin="anonymous"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 <body>
     <header class="top-header">
@@ -42,35 +43,37 @@
         </div>
     </div>
     <main>
-        <section class="servicios">
-            <section class="servicios-grid">
-                <div class="servicios-iconos">
-                    <div class="servicios-icono1">
-                        <center>
-                        <i class="fa-solid fa-newspaper"></i>
-                        </center>
-                        <h3 class="servicios-titulo1">Asesoramiento en:</h3>
-                        <div class="centrar-lista">
-                            <ul>
-                                <li class="lista-servicios">Proyecto de Tesis</li>
-                                <li class="lista-servicios">Trabajos de Investigación</li>
-                                <li class="lista-servicios">Informes de trabajo de<br/>Investigación</li>
-                            </ul>
+        <div data-aos="fade-up">
+            <section class="servicios">
+                <section class="servicios-grid">
+                    <div class="servicios-iconos">
+                        <div class="servicios-icono1">
+                            <center>
+                            <i class="fa-solid fa-newspaper"></i>
+                            </center>
+                            <h3 class="servicios-titulo1">Asesoramiento en:</h3>
+                            <div class="centrar-lista">
+                                <ul>
+                                    <li class="lista-servicios">Proyecto de Tesis</li>
+                                    <li class="lista-servicios">Trabajos de Investigación</li>
+                                    <li class="lista-servicios">Informes de trabajo de<br/>Investigación</li>
+                                </ul>
+                            </div>
+                        </div>
+                            <div class="servicios-icono">
+                                <i class="fa-solid fa-book"></i>
+                                <h3 class="servicios-titulo">Publicación de libros</h3>
+                                <p>Convierte tu tesis en un libro, el cual podrás publicar en Editoriales, tanto nacionales como internacionales, reconocidas y prestigiosas.</p>
+                            </div>
+                        <div class="servicios-icono">
+                            <i class="fa-solid fa-envelope-open-text"></i>
+                            <h3 class="servicios-titulo">Publicación de artículos</h3>
+                            <p>Convierte tu investigación en un artículo científico de alta impacto, que podrás publicar en Revistas importantes.</p>
                         </div>
                     </div>
-                    <div class="servicios-icono">
-                        <i class="fa-solid fa-book"></i>
-                        <h3 class="servicios-titulo">Publicación de libros</h3>
-                        <p>Convierte tu tesis en un libro, el cual podrás publicar en Editoriales, tanto nacionales como internacionales, reconocidas y prestigiosas.</p>
-                    </div>
-                    <div class="servicios-icono">
-                        <i class="fa-solid fa-envelope-open-text"></i>
-                        <h3 class="servicios-titulo">Publicación de artículos</h3>
-                        <p>Convierte tu investigación en un artículo científico de alta impacto, que podrás publicar en Revistas importantes.</p>
-                    </div>
-                </div>
+                </section>
             </section>
-        </section>
+        </div>
     </main>
 
 
@@ -116,6 +119,9 @@
             <p><b>Path&Succeed</b></p>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
